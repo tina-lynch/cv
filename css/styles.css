@@ -1,0 +1,110 @@
+/*div {margin: 1% 0;}*/
+header {
+	text-align: center;	
+}
+
+
+body {font-family: 'Roboto', sans-serif;font-weight: lighter;}
+h1 {font-weight: 900;font-size: 90px;text-transform: uppercase;}
+
+h2 {font-weight: 700; font-size: 24px;}
+h3 {font-weight: 700; font-size: 70px;}
+.main h3 {position: absolute;top: 30%;text-align: center;width: 100%;}
+h4 {font-weight: 500;}
+h1, h2, h3, h4, h5 {margin: 2% 0;}
+ul {padding:0;list-style-type: none;}
+li {margin:10px 0;}
+a {text-decoration: none;}
+/*main .content {width:90%;max-width: 1200px;margin:5% auto;}*/
+.header-text {  color: #000;position: absolute; top: 30%; text-align: center; width: 100%;}
+.footer {font-size: 14px; text-align: center;margin: 2% auto;display:block;}
+
+
+.main-body {width: 100%;/*margin: 5% auto;*/   position:relative; background-position: center;
+    background-size: cover;background-blend-mode: lighten;height: 50vh;filter:grayscale(100%);}
+/*.main-body:hover {filter:none;cursor: pointer;}*/
+.main-body h3 {text-align: center;}
+
+.role {font-weight: 400;}
+.duration {float: right;font-weight: 400;}
+
+.header-banner .slick-track {
+    height: 100vh;
+}
+.header-banner {opacity: 0.60;}
+
+.hero {
+  width: 100vw;  height: 100vh;  background-position: 0 0; }
+.hero-1 {
+	background-image: url("file:///Users/TinaLynch/Desktop/TINA-ONLINE-CV/images/santorini-oia-sunset.jpg");
+	 background-repeat: no-repeat;background-position: center;background-size: cover; 
+}
+.hero-2 {
+	background-image: url("file:///Users/TinaLynch/Desktop/TINA-ONLINE-CV/images/skystairs-small.jpg");
+	 background-repeat: no-repeat;background-position: center; background-size: cover; 
+}
+
+
+
+.latest-work {width: 100%;display: inline-block;}
+
+.latest-img-1, .latest-img-2 { width: 50%;float:left;}
+
+.latest-img-2 img, .latest-img-1 img {width: 100%;}
+.about {width: 90%; margin:auto;}
+
+/*.about-me {
+	background-image: url("file:///Users/TinaLynch/Desktop/TINA-ONLINE-CV/images/bronte-chair.jpg");
+}
+
+.photography {
+	background-image: url("file:///Users/TinaLynch/Desktop/TINA-ONLINE-CV/images/mykonos-sunset.jpg");
+}
+
+.design {
+	background-image: url("file:///Users/TinaLynch/Desktop/TINA-ONLINE-CV/images/blippo-font-comma-600x400.jpg");
+}
+
+.web {
+	background-image: url("file:///Users/TinaLynch/Desktop/TINA-ONLINE-CV/images/cartegena-lens-flare.jpg");
+}
+
+.contact {
+	background-image: url("file:///Users/TinaLynch/Desktop/TINA-ONLINE-CV/images/party-aftermath.jpg");
+}*/
+
+.menu-header-mob {
+	    z-index: 20;
+    width: 100vw;
+    height: 65px;
+    box-shadow: 0 0 5px #999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.headband {    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 14;
+    top: 0;
+    left: -300px;
+    overflow-x: hidden;
+    transition: all 0.3s linear;
+    padding-top: 8px;
+    background-color: #b4211d;}
+  .hamburger-menu {    float: right;
+    margin: 12px 20px 12px 10px;
+    display: inline-block;
+    cursor: pointer;}
+    .hamburger-menu div {width: 40px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;}
+
+  
+
+.headband-slide {
+    left: 0;
+    min-width: 300px;
+    max-width: 300px;

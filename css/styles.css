@@ -36,11 +36,11 @@ a {text-decoration: none;}
 .hero {
   width: 100vw;  height: 100vh;  background-position: 0 0; }
 .hero-1 {
-	background-image: url("file:/images/santorini-oia-sunset.jpg");
+	background-image: url("/images/santorini-oia-sunset.jpg");
 	 background-repeat: no-repeat;background-position: center;background-size: cover; 
 }
 .hero-2 {
-	background-image: url("file:/images/skystairs-small.jpg");
+	background-image: url("images/skystairs-small.jpg");
 	 background-repeat: no-repeat;background-position: center; background-size: cover; 
 }
 

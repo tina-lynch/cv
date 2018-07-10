@@ -1,67 +1,200 @@
-<html>
-<head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head profile="http://www.w3.org/2005/10/profile">
 	<title>web | Tina Lynch</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="../cv/images/tina-lynch-signature.png">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="js/slick/slick.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
 
-</head>
-<body>
-	<header>
-		<div class="header-banner">
-			<!-- <div class="hero hero-1"></div> -->
-			<!-- <div class="hero-2"></div> -->
-		</div>
+<!-- 	Rex by Joan Stark
+                              _.-.
+                             /  99\
+                            (      `\
+                            |\\ ,  ,|
+                    __      | \\____/
+              ,.--"`-.".   /   `---'
+          _.-'          '-/      |
+      _.-"   |   '-.             |_/_
+,__.-'  _,.--\      \      ((    /-\
+',_..--'      `\     \      \\_ /
+                `-,   )      |\' 
+                  |   |-.,,-" (  
+                  |   |   `\   `',_
+                  )    \    \,(\(\-'
+              jgs \     `-,_
+                   \_(\-(\`-`
+                      "  " -->
 
-		<div class="header-text">
-			<h1>tina lynch</h1>
+</head>
+<body class="contentPage">
+	<header>
+		<div class="menu-header-mob">
+			<div class="headband">
+				<ul class="nav">
+					<li class="current"><a href="../cv/index.html">Home</a></li>
+					<li class="link"><a href="../cv/about.html">About</a></li>
+					<li class="link"><a href="../cv/web.html" >Web</a></li>
+					<li class="link"><a href="../cv/photography.html">Photography</a></li>
+					<li class="link"><a href="../cv/contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="hamburger-menu">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+
+			<div class="nav-img">
+				<a href="../cv/index.html"><img src="../cv/images/tina-lynch-signature.png"></a>
+			</div>
+
+			<!-- <span style="font-size:36px;position:absolute;right:0;left:0;top:10%;font-weight:normal;">TINA LYNCH</span> -->
 		</div>
 	</header>
-	<!-- Nav -->
-	<div class="menu-header-mob">
-		<div class="headband">
-			<ul class="nav">
-				<li class="current"><a href="../testing/index.html">Home</a></li>
-				<li class="link"><a href="../testing/about.html">About</a></li>
-				<li class="link"><a href="../testing/web.html" >Web</a></li>
-				<li class="link"><a href="../testing/photography.html">Photography</a></li>
-				<li class="link"><a href="../testing/contact.html">Contact</a></li>
-			</ul>
-		</div>
-
-		<div class="hamburger-menu">
-			<div class="bar1"></div>
-			<div class="bar2"></div>
-			<div class="bar3"></div>
-		</div>
-	</div>
 	<main>
-		<div class="about web">
-				<!-- <img src="images/mykonos-sunset.jpg"> -->
+		<span class="hover-background"></span>
+		<div class="web slideUp">
 			<h1>WEB THINGS</h1>
 
 			<section>
-				<p>Below are some samples of my front end development work</p>
+				<div class="web-subs">
+					<p>AAT Kings work samples</p><p>&nbsp;</p>
+					<ul>
+						<li><h2 id="landing-pg">Landing Pages</h2></li>
+						<li><h2 id="edms">eDM's</h2></li>
+						<li><h2 id="video">Video</h2></li>
+						<li><h2 id="other">Other</h2></li>
+					</ul>
 			</section>
 
-			
+			<section>
+					<div class="hidden-web landing-pg" >
+						<h2>Landing Pages</h2><span class="close">+</span>
+						<div class="web-imgs">
+							<div><img data-lazy="../cv/images/melbourne-dt-landing.jpg">
+								<div><h3>Melbourne Day Tours</h3>
+									<p>I mocked up and coded this landing page without the use of a CMS and pre-determined style sheets. The concept was to create a landing page purely dedicated to promote and sell Day Tours without the distractions of the other type of AAT Kings products. Instead of focusing on tour names and descriptions, I chose to hone in on the highlights and destinations of where a Day Tour might go and categorise them accordingly. </p>
+									<p>The page opens with captivating full-length full-width banners and paralax scrolling on an tour grid. There are hover states over each grid image and smooth scrolling to tours when clicked. Tour discounts were always overlooked so I incorporated those in an interactive fashion; and also showed the simplicity of how to book and join a tour with interactive sliding boxes and hotel pick up lists. I also included a sticky bar and navigation to sight wheelchair and fitness accessibility to really focus on breaking down the walls that a guest may have when looking for a day tour. Finally there is a cross sell/up sell to the Short Break product which directly relates to the advertised Day Tours of the page.</p><br>
+									<a href="https://www.aatkings.com/day-tours/melbourne" target="_blank" class="org-btn">Visit Page</a><br><br>
+									<p>Phase two of this landing page project is to incorporate it into the CMS (SilverStripe) as a template so it can be reproduced at a moment's notice.</p>
+									<p>Other versions of this page also exist: <a href="https://www.aatkings.com/day-tours/sydney" target="_blank">Sydney</a>, <a href="https://www.aatkings.com/day-tours/red-centre" target="_blank">Red Centre</a> and <a href="https://www.aatkings.com/day-tours/top-end" target="_blank">Top End</a>.</p>
+								</div>
+							</div>
+							<div><img data-lazy="../cv/images/assdt-home-refresh.jpg">
+								<div><h3>Australia Sightseeing Day Tours</h3>
+									<p>After changes in the business, Australia Sightseeing Day Tours (sister brand of AAT Kings) needed a quick refresh and responsive design on its website. With instructions to keep the website as close to its existing design, I used the Sightseeing Melbourne Day Tours Brochure as a guide to clean up the unnecessary elements of the pages and while making them responsive at the same time.</p><br>
+									<a href="http://www.australiasightseeingdaytours.com.au/" target="_blank" class="org-btn">Visit Page</a><br><br>
+									<p>Time travel & vsit the old page <a href="https://web.archive.org/web/20151216194812/http://www.australiasightseeingdaytours.com.au/" target="_blank" >here</a></p>
+								</div>
+							</div>
+							<div><img data-lazy="../cv/images/video-page-refresh.jpg">
+								<div><h3>Video Page</h3>
+									<p>The old page was un-organised and not taking advantage of the 30+ videos we had in our collection. I redesigned the page to show more videos in an organised fashion, while also categorising them for better user expereince. The selected video plays while the user is still able to scroll through the library of videos, allowing the user to spend more time on the page.</p><br>
+									<a href="https://www.aatkings.com/about-us/video/" target="_blank" class="org-btn">Visit Page</a><br><br>
+									<p>Time travel & vsit the old page <a href="https://web.archive.org/web/20160822204511/https://www.aatkings.com/about-us/video/" target="_blank" >here</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
 
+					<div class="hidden-web edms" >
+						<h2>eDMs</h2><span class="close">+</span>
+						<div class="web-imgs">
+							<div><img data-lazy="../cv/images/ij-edm.jpg">
+								<div><h3>AAT Kings eDM + Exact Target Template</h3>
+									<p>Back in the day I used to get a HTML eDM brief from the marketing coordinator to build; and after multiple edits and back and forth, use to hand over the HTML code for them to distribute as needed.</p>
+									<p>These days, the process is much simpler after I created several resposive eDM templates in Exact Target (Sales Force/Marketing Cloud). After much trial and error, I understood how Exact Target changed the code from input to output, and created the templates with the non-html user in mind. I developed them in a way that content and images could be dropped in with minimal html knowledge, and created a Content library with pre-determined styling (eg headings, body text, buttons, promo blocks etc).</p>
+									<p>Today I edit a template every few months usually to alter a layout, thus leaving more time for website enhancements and other projects.</p> 
+									<br>
 
+									<a href="https://www.aatkings.com/emails/2018/us-ij-mncr/index.html" target="_blank" class="org-btn">View eDM</a>
+								</div>
+							</div>
+							<div><img data-lazy="../cv/images/ij-edm.jpg">
+								<div><h3>Inspiring Journeys eDM - Based on mockup + Exact Target Template</h3>
+									<p>Inspiring Journeys, the luxury and boutique sister brand of AAT Kings had recently been redesigned, and to go with that was an IJ specific and branded eDM.</p>
+									<p>After the design team mocked up a template, I converted the design into an eDM, and further developed it into a template for Exact Target (Sales Force/Marketing cloud).</p>
+									<p>To see one of the original eDM mockup designs, click <a href="images/ij-edm-template-mockup.jpg" target="_blank">here</a>.</p>
+									<br>
+									<a href="https://www.aatkings.com/emails/2018/us-ij-mncr/index.html" target="_blank" class="org-btn">View eDM</a>
+								</div>
+							</div>
+							<div><img data-lazy="../cv/images/trade-edm.jpg">
+								<div><h3>AAT Kings Trade eDM</h3>
+									<p>Unlike a normal AAT Kings eDM request, a trade eDM would consist of the same eDM being created multiple times with different personalisations according to regional Sales Reps.</p>
+									<p>Like the normal AAT Kings eDMs, I also created a few Trade templates plus a content library with seperate styling consisting of email signatures for each Sales Rep.</p>
+									<br>
+									<a href="https://www.aatkings.com/emails/2017/sales-march/qld/index.html" target="_blank" class="org-btn">View eDM</a>
+								</div>
+							</div>
+							<div><img data-lazy="../cv/images/intl-edm.jpg">
+								<div><h3>Constant Contact eDM - Based on Flyer Desgin</h3>
+									<p>This eDM was a request from the international team, to replicate a flyer they had and to be built for Constant Contact. The eDM layout was modified to accommodate styling for responsive devices, hierarchy and social media links. It was was cross-platform and cross-browser tested. To see the original flyer the eDM design came from, click <a href="images/intl-flyer-for-edm.jpg" target="_blank">here</a>.</p>
+									<br>
+									<a href="https://www.aatkings.com/emails/2017/us-highlights-of-aus-nz/index.html" target="_blank" class="org-btn">View eDM</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="hidden-web video">
+						<h2>Video</h2><span class="close">+</span>
+						<div class="web-imgs">
+							<div>
+								<iframe width="100%" src="https://www.youtube.com/embed/BmxLKrzoYt4?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+								<div><h3>AAT Kings 2017 Christmas Video </h3>
+									<p>The infamous 2017 AAT Kings Christmas video was briefed in just over a week before Christmas break and still needed to be distributed across the brand and to trade domestically and internationally. With basic exposure to Adobe AfterEffects, I flexed my video editing skills utilising footage from our librabry, and pushed my animation/transition/shape-layer/motion-curve skills out of their comfort zone.
+									<p>Today, the jingle no longer haunts me in my sleep and I now have a sarcastic love for the pond5 audio watermark.</p>
+									<br>
+									<a href="https://www.youtube.com/watch?v=BmxLKrzoYt4" target="_blank" class="org-btn">Watch on YouTube</a><br>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="hidden-web other">
+						<h2>Other</h2><span class="close">+</span>
+						<div class="web-imgs ">
+							<div><img data-lazy="../cv/images/trade-manual-laptop.jpg">
+								<div><h3>Trade Website Manual </h3>
+									<p>This guide was put together for Travel Agents using the new AAT Kings Trade Website. The manual is a step by step guide on how to register a travel agency, and how to troubleshoot if they are not able to. It offers navigation around the Trade Website and instructions such as 'How to order Brochures' or 'Using our Resources'. The Manual has similar brand aesthetic and layout as the actual Trade Portal for ease of use.</p>
+									<p>The Trade Website Manual is built with raw html code and without any CMS assistance or pre-determined style sheets. As the prime user (travel agents) are usually desktop-based, the manual is not responsive and is one of my earlier html projects I've created.</p>
+									<br>
+									<a href="https://www.aatkings.com/training/trade-website/index.html" target="_blank" class="org-btn">Visit Page</a><br>
+								</div>
+							</div>
+							<div><img data-lazy="../cv/images/tms-manual.jpg">
+								<div><h3>TMS (Booking System) Manual </h3>
+									<p>Some travel agents are able to book AAT Kings products directly, and TMS is the booking system used to so this. The original TMS Manual needed a refresh with updated branding, so it is based on an older version using a majority of existing assets and screen shots.</p>
+
+									<p>The TMS Manual is built with raw html code, and as the booking system (TMS) does not work on mobile devices, the manual is not responsive. Side note: This was also the first html project I created.</p>
+									<br>
+									<a href="https://www.aatkings.com/training/tms-agent/index.html" target="_blank" class="org-btn">Visit Page</a><br>
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
 
 		</div>
 	</main>
 
 
 	<footer>
-		<span class="footer">tina lynch	|	tinamarielynch@gmail.com 	|	0423 694 527</span>
+		<span>tina lynch	|	<a href="mailto:tinamarielynch@gmail.com">tinamarielynch@gmail.com</a> 	|	<a href="tel:0423694527">0423 694 527</a></span>
 	</footer>
 
 
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="js/slick/slick.js"></script>
+	
 	<script type="text/javascript" src="js/script.js"></script>
-
+<script type="text/javascript" src="js/slick/slick.js"></script>
 </body>
 </html>

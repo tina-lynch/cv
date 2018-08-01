@@ -12,7 +12,6 @@ ul {padding:0;list-style-type: none;}
 li {margin:0 0 10px 0;line-height: 1.6;}
 a {text-decoration: none;color:#F18643;line-height: 1.6;box-sizing: border-box;transition:ease-in-out 0.4s;-webkit-transition:ease-in-out 0.4s;}
 a:hover {transition:ease-in-out 0.4s;-webkit-transition:ease-in-out 0.4s;}
-
 p {font-size: 16px;line-height: 1.6;margin-bottom: 0.6rem;font-weight: 300;}
 main {margin:15% auto 5% auto;width: 70%; }
 section {overflow: hidden;}
@@ -21,8 +20,6 @@ footer a {color: #000;}
 footer a:hover {color:#F18643;}
 
 
-
-/*main .content {width:90%;max-width: 1200px;margin:5% auto;}*/
 
 
 /******* HEADER - BG IMG, SIG *******/
@@ -43,8 +40,8 @@ footer a:hover {color:#F18643;}
 }
 
 @keyframes bounce {
-  0% {  -webkit-transform: translateY(0); }
-  50% {  -webkit-transform: translateY(-20px); }
+  0% {  transform: translateY(0); }
+  50% { transform: translateY(-20px); }
 }
 .down-arrow:hover {cursor: pointer;}
 
@@ -61,7 +58,7 @@ footer a:hover {color:#F18643;}
 .nav-img img{width:80%;max-width:205px;}
 .headband-slide {left: 0;min-width: 105%;max-width: 105%;transition: ease-in-out 0.7s ;-webkit-transition: ease-in-out 0.7s;}
 .hamburger-menu {float:right;margin:12px 20px 12px 10px;display:inline-block;cursor:pointer;position: relative;z-index: 15;}
-.hamburger-menu div {width:40px;height:5px;background-color: #333;margin: 6px 0;transition: 0.4s;}
+.hamburger-menu div {width:40px;height:5px;background-color: #333;margin: 6px 0;transition: 0.4s;-webkit-transition:0.4s;}
 .change .bar1 {-webkit-transform:rotate(-45deg) translate(-8px, 6px); transform:rotate(-45deg) translate(-8px, 6px);-ms-transform:rotate(-45deg) translate(-8px, 6px);background-color: #fff;transition: background-color 2.5s;-webkit-transition:background-color 2.5s;}
 .change .bar2 {opacity: 0;transition:opacity 0.5s;-webkit-transition:opacity 0.5s;}
 .change .bar3 {-webkit-transform: rotate(45deg) translate(-8px, -8px);transform: rotate(45deg) translate(-8px,-8px);-ms-transform:rotate(45deg) translate(-8px, -8px); background-color: #fff;transition: background-color 2.5s;-webkit-transition:background-color 2.5s;}
@@ -81,9 +78,9 @@ footer a:hover {color:#F18643;}
 .sub-pg h3 a:hover {font-weight: 300;}
 
 .blurb {display: none;padding: 5rem;}
-.weight300 {font-weight: 300;transition:ease-in-out 1s;}
+.weight300 {font-weight: 300;transition:ease-in-out 1s;-webkit-transition:ease-in-out 1s;}
 .homePage header {height:100vh;}
-.homePage  main {margin:0 auto 10rem auto;width: 70%; height:85vh;transition:2s ease-in;-webkit-transition:2s ease-in;}
+.homePage main {margin:0 auto 10rem auto;width: 70%; height:85vh;transition:2s ease-in;-webkit-transition:2s ease-in;}
 .homePage footer {visibility: hidden;transition:2s ease-in;-webkit-transition:2s;ease-in;}
 
 
@@ -91,18 +88,17 @@ footer a:hover {color:#F18643;}
 
 
 
-.slideHidden {visibility: hidden;opacity: 0;transition: 2s opacity ease;}
+.slideHidden {visibility: hidden;opacity: 0;transition: 2s opacity ease;-webkit-transition: 2s opacity ease;}
 .slideUp {animation-name: slideUp;-webkit-animation-name: slideUp;animation-duration: 2s;-webkit-animation-duration: 2s;animation-timing-function: ease;-webkit-animation-timing-function: ease;visibility: visible !important;opacity: 1;}
 @keyframes slideUp {
-		0% {transform: translateY(35%);}
-		50% {transform: translateY(0%);}	
-	}
+	0% {transform: translateY(35%);}
+	50% {transform: translateY(0%);}	
+}
 
-	@-webkit-keyframes slideUp {
-		0% {-webkit-transform: translateY(35%);}		
-		50% {-webkit-transform: translateY(0%);}	
-	}
-
+@-webkit-keyframes slideUp {
+	0% {-webkit-transform: translateY(35%);}		
+	50% {-webkit-transform: translateY(0%);}	
+}
 
 
 
@@ -141,13 +137,12 @@ footer a:hover {color:#F18643;}
 .slick-track {width: 100vw;}
 .slick-slide img {width: 100%;}
 .slick-track .slick-slide {height:auto;}
-/*.slick-dots {display:none;}*/
 
 
 /*WEB PG*/
 .contentPage .web{position: relative;}
-.hidden-web {transition: ease-in-out  0.7s;max-height:800px;max-width:1200px;overflow:hidden;margin:auto;background-color: #fff;width:100%;position: absolute;top:-300%;z-index: 22;padding:3% 0 5% 0;margin-bottom: 5%;overflow-y:scroll;}
-.web-enlarge {top:-6%;right:0;transition:top ease-in-out  0.7s;}
+.hidden-web {transition: ease-in-out  0.7s;-webkit-transition: ease-in-out  0.7s;max-height:800px;max-width:1200px;overflow:hidden;margin:auto;background-color: #fff;width:100%;position: absolute;top:-300%;z-index: 22;padding:3% 0 5% 0;margin-bottom: 5%;overflow-y:scroll;}
+.web-enlarge {top:-6%;right:0;transition:top ease-in-out  0.7s;-webkit-transition:top ease-in-out 0.7s;}
 .web-subs h2 {display: inline-block;margin: 1% 0;}
 .web-subs h2:hover {cursor: pointer;color:#F18643;}
 
@@ -162,8 +157,7 @@ iframe {max-height: 400px;height:44vw;width: 100%}
 .photo-grid section {width: 33.3%;box-sizing: border-box;padding: 0 10px 0 10px;display: block;margin: 0;margin-bottom: 30px;float:left;}
 .photo-grid section a {background-position: center center;background-size: cover;width: 100%;padding-top: 80%;position: relative;display: block;}
 .photo-grid section a span {padding: 10%;position: absolute;top: 0;bottom: 0;width: 100%;overflow: auto;right: 0;left: 0;box-sizing: border-box;opacity:0;transition: all 0.3s ease-out;-webkit-transition:all 0.3s ease-out;background-color:#F18643;color:#fff;text-align: left;overflow: hidden;font-weight: 300;}
-/*.photo-grid section a:hover {opacity:.5;}*/
-.photo-grid section a span:hover {opacity:0.8;transition: all 0.3s ease-out}
+.photo-grid section a span:hover {opacity:0.8;transition: all 0.3s ease-out;-webkit-transition:all 0.3s;}
 
 
 /*Gallery Page*/
@@ -191,7 +185,6 @@ iframe {max-height: 400px;height:44vw;width: 100%}
 
 @media screen and (max-width: 700px){
 	p {font-size: 14px;}
-/*	.menu-header-mob {height: 70px;}*/
 	.pd li {width: 98%;}
 	.vol-wx li {width: 96%;}
 	.vol-wx li br {display: none;}
@@ -207,7 +200,6 @@ iframe {max-height: 400px;height:44vw;width: 100%}
 	.sub-pg h3 {font-size: 40px;margin:8% 0;}
 	.down-arrow {width:50px;}
 	.photo-grid section {width: 49%;padding:0 5px;}
-/*	.photo-grid section span {font-size: 14px;}*/
 	.backTo {width: unset;}
 	.previous-arrow, .next-arrow {top:15%;}
 }
